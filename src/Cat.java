@@ -9,4 +9,9 @@ public class Cat extends Felines{
     public void eat() {
         System.out.println("Cat is eating");
     }
+
+    @Override
+    public void sound() {
+        System.out.println("Meyooo");
+    }
 }
