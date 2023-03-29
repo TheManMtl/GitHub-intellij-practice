@@ -5,4 +5,8 @@
 
 public class Cat extends Felines{
 
+    @Override
+    public void eat() {
+        System.out.println("Cat is eating");
+    }
 }
